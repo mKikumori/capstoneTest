@@ -9,6 +9,10 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  
+  go_router:
+  cupertino_icons:
+  provider:
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +21,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  assets:
+    -  assets/images/capstoneAppIcon.png
