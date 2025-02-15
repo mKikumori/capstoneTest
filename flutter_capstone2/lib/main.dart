@@ -65,11 +65,14 @@ CustomTransitionPage<void> _customFadeTransition(
   return CustomTransitionPage<void>(
     key: state.pageKey,
     child: child,
-    transitionDuration: const Duration(milliseconds: 200),
+    transitionDuration: const Duration(milliseconds: 300),
     transitionsBuilder: (BuildContext context, Animation<double> animation,
         Animation<double> secondaryAnimation, Widget child) {
       return FadeTransition(
-        opacity: animation,
+        opacity: CurvedAnimation(
+          parent: animation,
+          curve: Curves.easeInOut,
+        ),
         child: child,
       );
     },

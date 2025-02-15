@@ -24,3 +24,8 @@ flutter:
 
   assets:
     -  assets/images/capstoneAppIcon.png
+    -  assets/images/profilePic.png
+    -  assets/images/capstoneAudioPic.png
+    -  assets/images/capstonePodcastPic.png
+    -  assets/images/capstoneFairyTallePic1.png
+    -  assets/images/capstoneFairyTallePic2.png
