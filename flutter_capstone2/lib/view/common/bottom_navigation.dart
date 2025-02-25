@@ -32,6 +32,7 @@ class GlobalNavigationBar extends StatelessWidget {
         color: Colors.white70,
       ),
       items: const [
+        // change this to cupertino_icons
         BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
         BottomNavigationBarItem(icon: Icon(Icons.search), label: 'Spotlight'),
         BottomNavigationBarItem(
